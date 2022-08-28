@@ -22,10 +22,10 @@ void IVargumentRun(int argCee, string yksi, string kaksi, string kolme)
     string line;
     int count = 1;
     bool printed = 0;
-    int occurance = -2;
-    int lineNumb = -2;
-    int reverseSearch = -2;
-    int ignoreCase = -2;
+    auto occurance = -2;
+    auto lineNumb = -2;
+    auto reverseSearch = -2;
+    auto ignoreCase = -2;
     filename = kolme;
 
     yksi.erase(0, 2); // removing "-o" from argv[2]
