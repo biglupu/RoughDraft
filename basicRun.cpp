@@ -46,8 +46,27 @@ void basicRun(int argCee, string yksi, string kaksi)
     string found_w;
     bool found = 0;
     string line;
+    filename = kaksi;
 
     bool printed = 0;
+
+    try {
+        inputFile.open(filename);
+        if (inputFile) {
+            inputFile.close();
+        }
+        else
+        {
+            throw 504;
+        }
+    }
+    catch (int f)
+    {
+        cout << "\nFile not found, Error: " << f << ", seizing operations\n";
+        return;
+    }
+
+
 
 
     if (argCee > 1)
