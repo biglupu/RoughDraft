@@ -1,6 +1,6 @@
 #pragma once
 #include <string>
-#include "print.h"
+#include "printClass.h"
 #include "FourArgumentRun.h"
 #include "basicRun.h"
 

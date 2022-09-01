@@ -60,6 +60,8 @@ void IVargumentRun(int argCee, string yksi, string kaksi, string kolme)
     else
         normalCaseRUN(kaksi, kolme, occurance, lineNumb, reverseSearch, ignoreCase);
 
+
+
 }
 
 

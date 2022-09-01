@@ -11,7 +11,12 @@ using std::string;
 
 void doingStuff()
 {
-	zeroArgumentRun();
+
+
+	Documentation test;
+	test.printEverything();
+
+	/*zeroArgumentRun();*/
 
 }
 
@@ -28,17 +33,11 @@ void doingStuff(int argCee, string yksi, string kaksi, string kolme)
 
 }
 
-
+//Tee instanssi luokasta "Documentation" joka printtaa halutut tekstit. While-loop, "exit" -out. 
 void doingStuff(int argCee, string yksi)
 {
-	if (yksi == "help" || yksi == "HELP" || yksi == "h" || yksi == "-h")
-	{
-		printHelp();
-	}
-	else if (yksi == "options" || yksi == "o" || yksi == "-options")
-		printOptions();
-	else
-		cout << "???\nInvalid command";
+	Documentation test;
+	test.printEverything();
 
 }
 

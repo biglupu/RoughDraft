@@ -144,7 +144,7 @@
     <ClCompile Include="FourArgumentRun.cpp" />
     <ClCompile Include="ignoreCaseRun.cpp" />
     <ClCompile Include="main.cpp" />
-    <ClCompile Include="matcher.cpp" />
+    <ClCompile Include="printClass.cpp" />
     <ClCompile Include="normalCaseRun.cpp" />
     <ClCompile Include="print.cpp" />
   </ItemGroup>
@@ -153,7 +153,7 @@
     <ClInclude Include="commandCenter.h" />
     <ClInclude Include="FourArgumentRun.h" />
     <ClInclude Include="ignoreCaseRun.h" />
-    <ClInclude Include="matcher.h" />
+    <ClInclude Include="printClass.h" />
     <ClInclude Include="normalCaseRun.h" />
     <ClInclude Include="print.h" />
   </ItemGroup>

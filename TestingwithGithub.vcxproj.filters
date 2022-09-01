@@ -36,7 +36,7 @@
     <ClCompile Include="normalCaseRun.cpp">
       <Filter>Source Files</Filter>
     </ClCompile>
-    <ClCompile Include="matcher.cpp">
+    <ClCompile Include="printClass.cpp">
       <Filter>Source Files</Filter>
     </ClCompile>
   </ItemGroup>
@@ -59,7 +59,7 @@
     <ClInclude Include="normalCaseRun.h">
       <Filter>Source Files</Filter>
     </ClInclude>
-    <ClInclude Include="matcher.h">
+    <ClInclude Include="printClass.h">
       <Filter>Source Files</Filter>
     </ClInclude>
   </ItemGroup>
