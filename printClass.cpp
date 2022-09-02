@@ -8,12 +8,20 @@ using std::string;
 
 Documentation::Documentation()
 {
-
+	printEverything(mArgCee,mYksi);
 }
 
-void Documentation::printEverything()
+
+void Documentation::setParameter(string mYksi,string aParameteri)
 {
-	std::cout << "\nDoCuMENTATION OF BASIC OPERATIONS\n\n";
+	mYksi = aParameteri;
+}
+
+
+void Documentation::printEverything(int mArgCee,string mYksi)
+{
+	cout << "\nDoCuMENTATION OF BASIC OPERATIONS\n\n";
+	cout << mArgCee << mYksi;
 
 }
 

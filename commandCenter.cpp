@@ -11,13 +11,8 @@ using std::string;
 
 void doingStuff()
 {
-
-
-	Documentation test;
-	test.printEverything();
-
-	/*zeroArgumentRun();*/
-
+	zeroArgumentRun();
+	
 }
 
 
@@ -37,7 +32,7 @@ void doingStuff(int argCee, string yksi, string kaksi, string kolme)
 void doingStuff(int argCee, string yksi)
 {
 	Documentation test;
-	test.printEverything();
+	test.printEverything(argCee,yksi);
 
 }
 

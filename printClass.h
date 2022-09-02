@@ -7,7 +7,8 @@ using std::string;
 class Documentation {
 public:
 	Documentation();
-	void printEverything();
+	void setParameter(string mYksi, string aParameteri);
+	void printEverything(int mArgCee,string mYksi);
 
 private:
 	int mArgCee;
